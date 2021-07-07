@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">EdInvoiceApp</string>
+    <string name="btn_clear_all_items"><u>Clear All Items</u></string>
+    <string name="btn_clear_all"><u>Clear All</u></string>
+    <string name="Zero">00.00</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string-array name="date_format">
+        <item>MM.dd.yy[10.29.2015]</item>
+        <item>dd.MM.yy[29.10.2015]</item>
+        <item>yy.MM.dd[15.10.29]</item>
+        <item>MM.dd.yyyy[10.29.2015]</item>
+        <item>dd.MM.yyyy[29.10.2015]</item>
+        <item>yyyy.MM.dd[2015.10.29]</item>
+        <item>dd MMM yyyy[29 Oct 2015]</item>
+        <item>dd MMMM yyyy[29 October 2015]</item>
+        <item>MMMMM dd, yyyy[October 29, 2015]</item>
+        <item>EEE, MMMM dd, yyyy[Thu, October 29, 2015]</item>
+        <item>EEEEEE, MMMM dd, yyyy[Thusday, October 29, 2015]</item>
+        <item>MMM dd, yyyy[Oct 29, 2015]</item>
+        <item>yyyy MM dd[2015 10 29]</item>
+        <item>yyyy年MM月dd日[2015年10月29日]</item>
+    </string-array>
+    <string-array name="operators">
+        <item>.</item>
+        <item>-</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Polskie</item>
+        <item>español</item>
+        <item>Français</item>
+        <item>português</item>
+        <item>中国人</item>
+        <item>Bahasa Indonesia</item>
+        <item>عرب</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="money">
+        <item>USD</item>
+        <item>UAH</item>
+        <item>PLN</item>
+        <item>EURO</item>
+    </string-array>
+</resources>

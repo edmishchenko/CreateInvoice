@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_delete_line"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/ic_delete_line_item"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:onClick="removeFieldInlinearLayout_add_line"/>
+    <TextView
+        android:id="@+id/text_from_ItemDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:maxLines="5"
+        android:layout_toRightOf="@+id/btn_delete_line"
+        android:maxWidth="180dp"
+        android:text="AAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+    <TextView
+        android:id="@+id/digit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:maxWidth="130dp"
+        android:layout_marginRight="10dp"
+        android:text="00 x 00"/>
+    <TextView
+        android:id="@+id/total_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/digit"
+        android:layout_marginRight="10dp"
+        android:text="000"/>
+</RelativeLayout>
